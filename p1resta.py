@@ -1,4 +1,4 @@
-print("Retorna el producto de los dos primeros parametros mas el tercer parametro")
+print("Retorna la resta de los dos primeros parametros por el tercer parametro")
 
 a=float(input("Ingresar el primer numero: "))
 b=float(input("Ingresar el segundo numero: "))
