@@ -1,8 +1,16 @@
-print("Retorna el producto los dos primeros parametros mas el tercer parametro")
+print("Retorna el producto de los dos primeros parametros mas el tercer parametro,usando las funciones anteriores")
+from producto import producto  
 
-a=float(input("Ingresar el primer numero: "))
-b=float(input("Ingresar el segundo numero: "))
-c=float(input("Ingresar el tercer numero: "))
-total=(a*b)+c
-print("Los valores ingresados son: ",a,b,c)
-print("El total es de: ",total)
+
+def funcion_p1_producto (a,b,num3):
+
+ funcion_p1_producto=producto(a,b)+num3
+ print("El resultado total es: ",funcion_p1_producto)
+ return funcion_p1_producto
+
+a=int((input("Ingresar el primer valor: ")))
+
+b=int((input("Ingresar el segundo valor: ")))
+producto(a,b)
+num3=int(input("I2ngrese el tercer valor: "))
+funcion_p1_producto(a,b,num3)
