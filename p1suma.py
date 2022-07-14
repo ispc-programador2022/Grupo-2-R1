@@ -1,8 +1,19 @@
-print("Retorna la suma de los dos primeros parametros por el tercer parametro")
 
-a=float(input("Ingresar el primer numero: "))
-b=float(input("Ingresar el segundo numero: "))
-c=float(input("Ingresar el tercer numero: "))
-total=(a+b)*c
-print("Los valores ingresados son: ",a,b,c)
-print("El total es de: ",total)
+from suma import suma
+
+
+def funcion_p1_suma (a,b,num3):
+  
+ funcion_p1_suma=suma(a,b)*num3
+ print("El resultado total es: ",funcion_p1_suma)
+ return funcion_p1_suma
+
+a=int((input("Ingresar el primer valor: ")))
+
+b=int((input("Ingresar el segundo valor: ")))
+suma(a,b)
+num3=int(input("Ingrese el tercer valor: "))
+funcion_p1_suma(a,b,num3)
+
+
+	
