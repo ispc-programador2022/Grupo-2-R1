@@ -1,6 +1,6 @@
 from genrnd import fun_genrnd as genrnd
 from itertools import combinations
-import statistics
+from statistics import median
 
 def cartel_genrnd_mediana():
     """Cartel Ejercicio 17"""     
@@ -17,4 +17,4 @@ print(list50)
     
     # Mediana de la lista
 print("\n***Devuelve la mediana de la lista aleatorea***")
-print("Mediana= ",statistics.median(list50))
+print("Mediana= ", median(list50))
