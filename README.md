@@ -6,6 +6,6 @@
 <p><b><i>.Ayala Sol Macarena</b></i></p>
 <p><b><i>.Belén Riquelme</b></i></p>
 <p><b><i>.Maximiliano Castello</b></i></p>
-<p><b><i>.Ileana Emilce Benitez</b></i></p>
+
 
 </html>
