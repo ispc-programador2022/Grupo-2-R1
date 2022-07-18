@@ -4,6 +4,8 @@
 <h1><b><i>¡Bienvenidos al GRUPO 2 R1 COHORTE 2022!</i></b></h1>
 <h2><b><i><u>Colaboradores: </u></i></b></h2>
 <p><b><i>.Ayala Sol Macarena</b></i></p>
+<p><b><i>.Belén Riquelme</b></i></p>
+<p><b><i>.Maximiliano Castello</b></i></p>
 <p><b><i>.Ileana Emilce Benitez</b></i></p>
 
 </html>
