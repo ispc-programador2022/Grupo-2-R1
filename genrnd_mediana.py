@@ -8,13 +8,14 @@ def cartel_genrnd_mediana():
     print("Punto 17: función que calcule la mediana del vector obtenido en genrnd")
     print("---------------------------------------------------------------------")
     print(" ")
-
-    # retorna una lista con 50 números aleatorios.
+ # retorna una lista con 50 números aleatorios.
 print("\n***Retorna una lista con 50 números aleatorios***")
-list50 = genrnd(50)
+list50=genrnd()
 print(list50)
+
+# Mediana de la lista
+def mediana(lista):
+ mediana_valor = median(lista)
+ return mediana_valor
     
-    
-    # Mediana de la lista
-print("\n***Devuelve la mediana de la lista aleatorea***")
-print("Mediana= ", median(list50))
+print("la mediana del vector es:", mediana(list50)) 

@@ -9,11 +9,14 @@ def cartel_genrnd_range():
     print("---------------------------------------------------------------------")
     print(" ")
 
-    # retorna una lista con 50 números aleatorios.
+ # retorna una lista con 50 números aleatorios.
 print("\n***Retorna una lista con 50 números aleatorios***")
-list50 = genrnd(50)
+list50=genrnd()
 print(list50)
+
+# Rango del vector
+def rango(lista):
+ rango_valor = range(lista)
+ return rango_valor
     
-    # Rango de la lista
-print("\n***Devuelve el rango de la lista aleatorea***")
-print("Rango= ", range(list50))
+print("El rango del vector es:", rango(list50)) 
