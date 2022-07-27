@@ -8,8 +8,7 @@ class Main:
     """
     Clase que se encarga de administrar
     y lanza las funciones
-    """
-    
+    """    
     def __init__(self):
         cartel.cartel_index()
         cartel.cartel_menu()
