@@ -10,7 +10,7 @@ def cartel_genrnd_maximo():
 
  # retorna una lista con 50 números aleatorios.
 print("\n***Retorna una lista con 50 números aleatorios***")
-list50= fun_genrnd()
+list50= genrnd()
 print(list50)
 
 # Maximo de la lista
