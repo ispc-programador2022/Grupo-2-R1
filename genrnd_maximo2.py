@@ -11,7 +11,7 @@ def cartel_genrnd_maximo2():
  # retorna una lista con 50 números aleatorios.
 print("\n***Retorna una lista con 500.000.000.000.000.000 números aleatorios***")
 listaa= genrnd2()
-print(listaa)
+#print(listaa)
 
 # Maximo de la lista
 def maximo2(lista):
