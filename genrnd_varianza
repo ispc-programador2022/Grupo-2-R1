@@ -1,0 +1,18 @@
+import statistics
+from genrnd import fun_genrnd as genrnd
+from itertools import combinations
+from statistics import variance
+
+def cartel_genrnd_varianza():
+    """Cartel Ejercicio 19"""     
+    print("---------------------------------------------------------------------")
+    print("Punto 19: función que calcule la varianza del vector obtenido en genrnd")
+    print("---------------------------------------------------------------------")
+    print(" ")
+ # retorna una lista con 50 números aleatorios.
+print("\n***Retorna una lista con 50 números aleatorios***")
+list50=genrnd()
+print(list50)
+
+# Varianza de la lista
+print("la varianza del vector es:", statistics.variance(list50)) 
